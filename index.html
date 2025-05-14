@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>⚡ My Toy Soldier Shop! ⚡</title>
+    <style>
+
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background-image: linear-gradient(0deg, #b3bd93 100%, #85a885 100%);
+        }
+
+        .header {
+            text-align: center;
+            background-color: #3c452e;
+            padding: 25px;
+            color: white;
+            font-size: 15px;
+            text-shadow: 2px 0px 6px rgba(0,0,0,0.68);
+        }
+        .products {
+            margin: 20px 0;
+        }
+        .products h4 {
+            text-align: center;
+        }        
+
+        .products h3 {
+            text-align: center;
+        }   
+
+        .products p {
+            text-align: center;
+        }
+
+        .products li {
+            background-color: #fcfc6f;
+            box-shadow: -2px 1px 50px rgba(0,0,0,1);
+            box-align: center;
+            padding: 1px;
+            margin: 10px;
+            display: inline-block;
+
+        }
+        .products img {
+            box-shadow: -2px 1px 0px rgba(0,0,0,0.54);
+
+        }
+        .BuyForm {
+            background-color: #fcfc6f;
+            box-shadow: -2px 1px 0px rgba(0,0,0,0.54);\
+
+        }
+        input[type=text], input[type=email] {
+            width: 85%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #009600;
+            color: white;
+  
+    </style>
+</head>
+<body>
+
+<!-- Introduction -->
+<div class="header">
+  <h1>⚡Welcome to My Shop!⚡</h1>
+  <p>Have you ever wanted to make a stop motion video or a diorama for a school project related to military? Get my products in the toy soldier shop!</p>
+</div>
+
+<!-- Products -->
+<center>
+<div class=products>
+    <h4>Products</h4>
+    <ul>
+        <li>
+            <h3>American Soldiers</h3>
+            <img class="products" src="https://img.lazcdn.com/g/p/9e1a615cb94202bffca14b0b3298fc00.jpg_2200x2200q80.jpg_.webp" alt="Green Soldiers" width="300">
+            <p>Price: ₱20</p>
+        </li>        
+        <li>
+            <h3>German Soldiers</h3>
+            <img class="products" src="https://img.lazcdn.com/g/p/d53ddb52b6e4dceed0502448dc49ffc5.jpg_2200x2200q80.jpg_.webp" alt="Tan Soldiers"width="300">
+            <p>Price: ₱25</p>
+        </li>
+        <li>
+            <h3>China Soldiers</h3>
+            <img class="products" src="https://img.lazcdn.com/g/p/3a1064762279998c3a6617d1f67b0ca4.jpg_2200x2200q80.jpg_.webp" alt="Red Soldiers" width="300">
+            <p>Price: ₱30</p>
+        </li>
+    </ul>
+</div>
+</center>
+
+<!-- Buying the Product -->
+<div class="BuyForm">
+    <h1>Buy the products based on the following:</h1>
+
+        <form action="/action_page.php">
+            <p><label for="BuyForm">What do you want to buy?</label></p>
+            <textarea id="What do you want to buy?" name="Message your order please?"></textarea>
+        <br>
+        <form action="/action_page.php" method="post">
+        <label for="uname"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+        <br>
+        <label for="email"><b>Password</b></label>
+            <input type="email" placeholder="Enter Email" name="email" required>
+        <br>
+        <button type="submit">Submit your response!</button>
+        </form>
+</div>
+</body>
+</html>
